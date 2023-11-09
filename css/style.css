@@ -25,6 +25,7 @@ h1 {
 }
 .next{
     color: rgb(132, 5, 5);
+    text-shadow: 4px 1px #101201;
 }
 .span{
     margin-top: 40px;
@@ -51,7 +52,7 @@ h1 {
     color: rgb(209, 216, 182);
 	border: 1px solid #eee;
 	/* table-layout: fixed; */
-	width: 150px;
+	width: 170px;
     height: 760px;
 	margin-bottom: 20px;
         box-shadow: 4px 4px 16px  rgba(0, 90, 0, 1);
@@ -90,6 +91,7 @@ h1 {
 .char {
     font-size: 90px;
     color: rgb(44, 13, 2);
+    
     font-weight: 800;
 }
 .min {
@@ -106,8 +108,8 @@ h1 {
 }
 .symb {
     position: absolute;
-    left: 70px;
-    top: 350px;
+    left: 65px;
+    top: 380px;
     justify-self: flex-start;
     align-self: flex-end;
     /* box-shadow: 0px 4px 16px  rgba(0, rgb(4, 191, 4), 0, .3); */
@@ -116,6 +118,7 @@ h1 {
     color: #dbe962;
 }
 .but{
+    font-size: 20px;
     padding: 5px 10px;
     background-color: rgb(6, 23, 101);
     color: rgb(179, 255, 0);
@@ -132,7 +135,7 @@ h1 {
 }
 .modal{
     z-index: +200;
-    margin-left: 200px;
+    margin-left: 160px;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
